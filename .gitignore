@@ -29,3 +29,4 @@ coverage/
 # Vite preview artifacts
 app/dev-dist/
 
+docs/PROJECT_STATUS.md
