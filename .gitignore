@@ -1,0 +1,27 @@
+# Node
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+.vite/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.idea/
+.vscode/
+
+# Docker
+.env
+.env.*
+.DS_Store
+
+# Build artifacts
+build/
+coverage/
+*.log
