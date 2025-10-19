@@ -25,3 +25,7 @@ __pycache__/
 build/
 coverage/
 *.log
+
+# Vite preview artifacts
+app/dev-dist/
+

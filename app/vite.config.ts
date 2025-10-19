@@ -1,12 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
-import VitePluginSRI from 'vite-plugin-sri'
 
 export default defineConfig({
   plugins: [
     react(),
-    VitePluginSRI({ algorithms: ['sha384'] }),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt'],
